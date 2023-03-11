@@ -2026,7 +2026,7 @@ input, select, textarea {
 		padding-left: 0;
 		cursor: default;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 	}
 
 		ul.icons li {
