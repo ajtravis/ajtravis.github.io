@@ -6,10 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Twenty by HTML5 UP</title>
+		<title>Alex Travis</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+		<script src="https://kit.fontawesome.com/74ecfc47d7.js" crossorigin="anonymous"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="index is-preload">
@@ -17,30 +19,15 @@
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
+					<h1 id="logo"><a href="index.html">Alex Travis</a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Welcome</a></li>
-							<li class="submenu">
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li class="submenu">
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Dolore Sed</a></li>
-											<li><a href="#">Consequat</a></li>
-											<li><a href="#">Lorem Magna</a></li>
-											<li><a href="#">Sed Magna</a></li>
-											<li><a href="#">Ipsum Nisl</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
+							<li class="current"><a href="index.html">Home</a></li>
+							<li class="current"><a href="#about">About</a></li>
+							<li class="current"><a href="#skills">Skills</a></li>
+							<li class="current"><a href="#projects">Projects</a></li>
+							<li class="current"><a href="#footer">Contact</a></li>
+
 						</ul>
 					</nav>
 				</header>
@@ -55,18 +42,15 @@
 						appropriate (<br />).
 					-->
 					<div class="inner">
-
+						<img id="headshot" src="images/profile-pic.png" />
+						<p>Hello, I'm</p>
 						<header>
-							<h2>TWENTY</h2>
+							<h2>Alex Travis</h2>
 						</header>
-						<p>This is <strong>Twenty</strong>, a free
-						<br />
-						responsive template
-						<br />
-						by <a href="http://html5up.net">HTML5 UP</a>.</p>
+						<p>a full-stack software engineer</p>
 						<footer>
 							<ul class="buttons stacked">
-								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+								<li><a href="https://drive.google.com/file/d/1DjBn7TPawIp2GypMhbiHYe3BFtZ_7G8I/view?usp=sharing" class="button fit scrolly">View Resume</a></li>
 							</ul>
 						</footer>
 
@@ -77,44 +61,44 @@
 			<!-- Main -->
 				<article id="main">
 
-					<header class="special container">
+					<header class="special container" id="about">
 						<span class="icon solid fa-chart-bar"></span>
-						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
+						<h2>About</h2>
+						<p>I am a sofware developer currently based in central Ohio. I have a background in geology
 						<br />
-						I decided to give it a really creative name.</h2>
-						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
+						and enjoy the outdoors and being in nature.
 						<br />
-						it's minimally designed, fully responsive, built on HTML5/CSS3,
-						and, like all my stuff,
-						<br />
-						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
+						I find myself most at home when working on problems in which the answer isn't always obvious,
+						<br/>
+						and love to find creative solutions to problems.
+						</p>
 					</header>
 
 					<!-- One -->
-						<section class="wrapper style2 container special-alt">
-							<div class="row gtr-50">
-								<div class="col-8 col-12-narrower">
-
+						<section class="wrapper style2 container special-alt" id="skills">
+							<div class="row ">
+								<!-- gtr-50 -->
+								<div class="skills-header">
 									<header>
-										<h2>Behold the <strong>icons</strong> that visualize what you’re all about. or just take up space. your call bro.</h2>
+										<h2 style="text-align: center;">Skills</h2>
 									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
-									<footer>
-										<ul class="buttons">
-											<li><a href="#" class="button">Find Out More</a></li>
-										</ul>
-									</footer>
 
 								</div>
-								<div class="col-4 col-12-narrower imp-narrower">
-
+								<!-- <div class="col-4 col-12-narrower imp-narrower"> -->
+								<div class="skill-cont">
 									<ul class="featured-icons">
-										<li><span class="icon fa-clock"><span class="label">Feature 1</span></span></li>
-										<li><span class="icon solid fa-volume-up"><span class="label">Feature 2</span></span></li>
-										<li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
-										<li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
-										<li><span class="icon solid fa-lock"><span class="label">Feature 5</span></span></li>
-										<li><span class="icon solid fa-cog"><span class="label">Feature 6</span></span></li>
+										<li><i class="devicon-javascript-plain colored skill-icon"></i>JavaScript</li>
+										<li><i class="devicon-python-plain colored skill-icon"></i>Python</li>
+										<li><i class="devicon-cplusplus-plain colored skill-icon"></i></i>C++</li>
+										<li><i class="devicon-react-original skill-icon"></i>React</li>
+										<li><i class="devicon-postgresql-plain skill-icon"></i>PostgresSQL</li>
+										<li><i class="devicon-express-original skill-icon"></i>Express</li>
+										<li><i class="devicon-sequelize-plain skill-icon"></i></i>Sequelize</li>
+										<li><i class="devicon-flask-original skill-icon"></i>Flask</li>
+										<li><i class="devicon-sqlalchemy-plain skill-icon"></i>SQLAlchmemy</li>
+										<li><i class="devicon-html5-plain colored skill-icon"></i>HTML5</li>
+										<li><i class="devicon-css3-plain skill-icon"></i>CSS3</li>
+										<li><i class="devicon-git-plain colored skill-icon"></i>Git</li>
 									</ul>
 
 								</div>
@@ -122,7 +106,7 @@
 						</section>
 
 					<!-- Two -->
-						<section class="wrapper style1 container special">
+						<!-- <section class="wrapper style1 container special">
 							<div class="row">
 								<div class="col-4 col-12-narrower">
 
@@ -158,76 +142,76 @@
 
 								</div>
 							</div>
-						</section>
+						</section> -->
 
 					<!-- Three -->
-						<section class="wrapper style3 container special">
+						<section class="wrapper style3 container special" id="projects">
 
 							<header class="major">
-								<h2>Next look at this <strong>cool stuff</strong></h2>
+								<h2>Projects</h2>
+								<p>Some Projects I've Been Working On</p>
 							</header>
 
 							<div class="row">
-								<div class="col-6 col-12-narrower">
+								<div class="col-4">
 
-									<section>
-										<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+									<section class="proj">
+										<a href="https://splashd.onrender.com/" class="image featured"><img src="images/splashd.png" alt="" /></a>
 										<header>
-											<h3>A Really Fast Train</h3>
+											<h3>Splashd</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+										<p>A clone of the popular beer-tasting website Untappd</p>
+										<div class="proj-links">
+											<a href="https://splashd.onrender.com/">Live Site</a>
+											<a href="https://github.com/D0RK5TER/Splashd">GitHub Repository</a>
+										</div>
 									</section>
 
 								</div>
-								<div class="col-6 col-12-narrower">
+								<div class="col-4">
 
-									<section>
-										<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<section class="proj">
+										<a href="https://petsy-tpgv.onrender.com/" class="image featured"><img src="images/petsy.png" alt="" /></a>
 										<header>
-											<h3>An Airport Terminal</h3>
+											<h3>Petsy</h3>
 										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
+										<p>A pet-themed clone of the e-commerce website Etsy</p>
+										<div class="proj-links">
+											<a href="https://petsy-tpgv.onrender.com/">Live Site</a>
+											<a href="https://github.com/ajtravis/Petsy">GitHub Repository</a>
+										</div>
+									</section>
+
+								</div>
+								<div class="col-4">
+
+									<section class="proj">
+										<a href="https://my-air-bnb-clone.onrender.com/" class="image featured"><img src="images/al-bnb.png" alt="" /></a>
+										<header>
+											<h3>Al-BnB</h3>
+										</header>
+										<p>Clone of the popular lodging website AirBnb</p>
+										<div class="proj-links">
+											<a href="https://my-air-bnb-clone.onrender.com/">Live Site</a>
+											<a href="https://github.com/ajtravis/Air-BnB-clone">GitHub Repository</a>
+										</div>
 									</section>
 
 								</div>
 							</div>
-							<div class="row">
-								<div class="col-6 col-12-narrower">
 
-									<section>
-										<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Hyperspace Travel</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div>
-								<div class="col-6 col-12-narrower">
-
-									<section>
-										<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>And Another Train</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-									</section>
-
-								</div>
-							</div>
-
-							<footer class="major">
+							<!-- <footer class="major">
 								<ul class="buttons">
 									<li><a href="#" class="button">See More</a></li>
 								</ul>
-							</footer>
+							</footer> -->
 
 						</section>
 
 				</article>
 
 			<!-- CTA -->
-				<section id="cta">
+				<!-- <section id="cta">
 
 					<header>
 						<h2>Ready to do <strong>something</strong>?</h2>
@@ -240,21 +224,15 @@
 						</ul>
 					</footer>
 
-				</section>
+				</section> -->
 
 			<!-- Footer -->
-				<footer id="footer">
-
+				<footer id="footer" style="padding-left: 30%; padding-right: 30%;">
+					<h3>Contact</h3>
 					<ul class="icons">
-						<li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
-						<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
-					</ul>
-
-					<ul class="copyright">
-						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li class="contact-icon" style="padding-left: 0px;"><a href="mailto:ajtravis2@gmail.com" class="icon brands circle" style="width:100%; height: 100%;"><i class="fa-solid fa-envelope" style="font-size: 100%;"></i></a></li>
+						<li class="contact-icon" style="padding-left: 0px;"><a href="https://github.com/ajtravis" class="icon brands circle fa-github" style="font-size: 2em;"></a></li>
+						<li class="contact-icon" style="padding-left: 0px;"><a href="https://www.linkedin.com/in/ajtravis93/" class="icon brands circle" style="width: 100%; height: 100%;"><i class="devicon-linkedin-plain" style="font-size: 4em;" ></i></a></li>
 					</ul>
 
 				</footer>

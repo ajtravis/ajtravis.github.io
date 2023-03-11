@@ -1873,11 +1873,14 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
+			height:50%;
+			width: 100%;
 		}
 
 			.image.featured img {
 				display: block;
 				width: 100%;
+				height: 100%;
 			}
 
 /* Icon */
@@ -2022,24 +2025,27 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 		cursor: default;
+		display: flex;
+		justify-content: space-evenly;
 	}
 
 		ul.icons li {
-			display: inline-block;
+			display: flex;
+			flex-direction: column;
 			line-height: 1em;
-			padding-left: 0.5em;
+			/* padding-left: 0.5em; */
 		}
 
-			ul.icons li:first-child {
+			/* ul.icons li:first-child {
 				padding-left: 0;
-			}
+			} */
 
 /* Featured Icons */
 
 	ul.featured-icons {
 		cursor: default;
 		margin: -0.75em 0 0 0;
-		opacity: 0.35;
+		/* opacity: 0.35; */
 		overflow: hidden;
 		position: relative;
 		list-style: none;
@@ -2047,10 +2053,11 @@ input, select, textarea {
 	}
 
 		ul.featured-icons li {
-			display: block;
+			display: flex;
+			flex-direction: column;
 			float: left;
 			text-align: center;
-			width: 50%;
+			width: 25%;
 			padding-left: 0;
 			margin-bottom: 1em;
 		}
@@ -2212,7 +2219,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: #645862;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2643,7 +2650,7 @@ input, select, textarea {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 2em 2em 2em 2em;
 		text-align: center;
 	}
 
@@ -3338,4 +3345,56 @@ input, select, textarea {
 				height: 34px;
 			}
 
+	}
+
+	.skill-icon{
+		font-size:100px;
+	}
+
+	.skill-cont{
+		width: 100%;
+	}
+
+	.skills-header{
+		width: 100%;
+	}
+
+	#headshot{
+		clip-path: circle();
+		width: 10em;
+	}
+
+	.proj-links{
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.proj-links > a {
+		cursor: pointer;
+	}
+
+	.proj-gal{
+		display: flex;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+	}
+
+	.proj {
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+	}
+
+	ul.icons > li.contact-icon{
+		display:flex;
+		flex-direction: column;
+		width: 5em;
+		height: 5em;
+		/* padding: 3em; */
+
+
+	}
+
+	.contact-icon > a.icon{
+		border-bottom: none;
 	}
